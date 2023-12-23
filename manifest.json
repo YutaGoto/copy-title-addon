@@ -1,0 +1,19 @@
+{
+  "name": "Copy Title",
+  "description": "Ctrl + Alt + C to copy title",
+  "homepage_url": "https://github.com/YutaGoto",
+  "manifest_version": 2,
+  "version": "0.0.1",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["*://*/*", "tabs", "clipboardWrite"],
+
+  "commands": {
+    "toggle-feature": {
+      "suggested_key": { "default": "Ctrl+Alt+C" },
+      "description": "Send a 'toggle-feature' event to the extension"
+    }
+  }
+}
