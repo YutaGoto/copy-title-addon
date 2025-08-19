@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "oxlint": "^0.18.1"
+    "oxlint": "^1.12.0"
   }
 }
